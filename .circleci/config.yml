@@ -6,6 +6,4 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run:
-        name: Run Test
-        command: npm test
+      - run: npm test
